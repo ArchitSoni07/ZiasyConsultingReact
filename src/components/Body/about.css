@@ -1,0 +1,24 @@
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .about-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 3%;
+  }
+  #about-us ul li {
+    margin: 10px 0;
+  }
+  #about-us ul {
+    margin-left: 20px;
+  }
+  #about-us ul li a {
+    color: #212529;
+    text-decoration: none;
+  }
+  #about-us ul li a:hover {
+    color: #808080;
+    text-decoration: none;
+  }
