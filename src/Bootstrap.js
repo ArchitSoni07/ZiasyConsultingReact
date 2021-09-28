@@ -26,14 +26,6 @@ function Bootstrap() {
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="./smooth-scroll.js"></script>
-    <script>
-      var scroll = new SmoothScroll('a[href*="#"]');
-    </script>
-
-    {/*<!-- Optional JavaScript -->*/}
-    <script data-cfasync="false" src="form-submission-handler.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <title>ziasyconsulting</title>
     </div>
     )
