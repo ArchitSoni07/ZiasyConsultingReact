@@ -49,7 +49,7 @@ function Service() {
 
                         <div class="col-md-4 services">
                             <ServiceComponent
-                            img ={"images/hardware.jpg"} 
+                            img ={"images/services-2.jpg"} 
                             name={"App Development"}
                             desc={"Cross platform, custom, out of the box & responsive apps with prosperous designs and secure backend."}
                                 /> 
