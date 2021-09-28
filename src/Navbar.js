@@ -37,7 +37,7 @@ function Navbar() {
                             <Link to='/Header'>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#Home">HOME</a>
+                                    <a class="nav-link" href="#Home">OME</a>
                                 </li>
                             </Link>
                             </motion.div>
