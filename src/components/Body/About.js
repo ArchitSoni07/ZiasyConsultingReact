@@ -1,16 +1,17 @@
 import React from 'react'
 import Navbar from '../../Navbar'
 import './about.css'
-import {AnimatePresence,motion} from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 import Footer from '../Footer/Footer'
+import AboutComponent from './AboutComponent'
 
 
 function About() {
     return (
         <motion.div
-        initial={{ opacity: 0 }, { y: "20%" }}
-        animate={{ opacity: 1 },{ y: "0%" }}
-        exit={{ opacity: 0 },{y: "100%"}}>
+            initial={{ opacity: 0 }, { y: "20%" }}
+            animate={{ opacity: 1 }, { y: "0%" }}
+            exit={{ opacity: 0 }, { y: "100%" }}>
             <Navbar />
             <section id="about-us">
                 <div class="container">
@@ -25,22 +26,22 @@ function About() {
                             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                             <ul>
                                 <li>
-                                    <a href="#">Web Development</a>
+                                    <AboutComponent name={"Web Development"} />
                                 </li>
                                 <li>
-                                    <a href="#">UI / UX Design</a>
+                                    <AboutComponent name={"UI / UX Design"} />
                                 </li>
                                 <li>
-                                    <a href="#"> ECommerce</a>
+                                    <AboutComponent name={"ECommerce"} />
                                 </li>
                                 <li>
-                                    <a href="#">Mobile App Development</a>
+                                    <AboutComponent name={"Mobile App Development"} />
                                 </li>
                                 <li>
-                                    <a href="#">SEO</a>
+                                    <AboutComponent name={"SEO"} />
                                 </li>
                                 <li>
-                                    <a href="#">Hardware Solutions</a>
+                                    <AboutComponent name={"Hardware Solutions"} />
                                 </li>
                             </ul>
                         </div>
