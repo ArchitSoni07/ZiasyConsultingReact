@@ -5,7 +5,7 @@ import {AnimatePresence,motion} from 'framer-motion'
 import Footer from '../Footer/Footer'
 import PortfolioComponent from './PortfolioComponent'
 
-function Portfolio() {
+function PortfolioHome() {
     return (
         <motion.div
         initial={{ opacity: 0 }, { y: "20%" }}
@@ -13,7 +13,7 @@ function Portfolio() {
         exit={{ opacity: 0 },{y: "100%"}}
         >
             {/*<!-- Portfolio -->*/}
-            <Navbar />
+            
             <section id="portfolio">
                 <div class="container">
                     <h1 class="title text-center">PORTFOLIO</h1>
@@ -41,9 +41,9 @@ function Portfolio() {
                     </div>
                 </div>
             </section>
-            <Footer />
+            
         </motion.div>
     )
 }
 
-export default Portfolio
+export default PortfolioHome

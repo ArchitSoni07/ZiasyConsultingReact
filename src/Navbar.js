@@ -34,7 +34,7 @@ function Navbar() {
                             animate={{ opacity: 1 },{ y: "0%" }}
                             exit={{ opacity: 0 },{y: "100%"}}
                             >
-                            <Link to='/Header'>
+                            <Link to='/Home'>
 
                                 <li class="nav-item">
                                     <a class="nav-link" href="#Home">HOME</a>

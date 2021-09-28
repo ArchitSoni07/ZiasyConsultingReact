@@ -8,6 +8,7 @@ import Service from './components/Body/Service';
 import Portfolio from './components/Body/Portfolio';
 import Contact from './components/Body/Contact';
 import {AnimatePresence,motion} from 'framer-motion'
+import Home from './Home';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Router>
       <AnimatePresence>
       <Switch>
-      <Route path="/" exact component={Header}/>
+      <Route path="/" exact component={Home}/>
+      <Route path="/Home" exact component={Home}/>
       <Route path="/Header" component={Header}/>
       <Route path="/About" component={About}/>
       <Route path="/Service" component={Service}/>

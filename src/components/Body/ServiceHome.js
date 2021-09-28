@@ -4,7 +4,7 @@ import './Service.css'
 import { AnimatePresence, motion } from 'framer-motion'
 import Footer from '../Footer/Footer'
 import ServiceComponent from './ServiceComponent'
-function Service() {
+function ServiceHome() {
     return (
         <motion.div
             initial={{ opacity: 0 }, { y: "20%" }}
@@ -12,7 +12,6 @@ function Service() {
             exit={{ opacity: 0 }, { y: "100%" }}
         >
 
-            <Navbar />
             <section id="services">
                 <div class="container text-center">
                     <h1 class="title">OUR SERVICES</h1>
@@ -68,11 +67,11 @@ function Service() {
                     <button type="button" class="btn btn-primary">All Services</button>
                 </div>
             </section>
-            <Footer />
+            
 
 
         </motion.div>
     )
 }
 
-export default Service
+export default ServiceHome
