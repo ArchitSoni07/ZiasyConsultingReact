@@ -1,5 +1,4 @@
 import './App.css';
-import Bootstrap from './Bootstrap';
 import Body from './components/Body/Body';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -17,7 +16,6 @@ function App() {
     animate={{opacity:1}}
     exit={{opacity:0}}
     >
-      <Bootstrap />
       <Router>
       <AnimatePresence>
       <Switch>
